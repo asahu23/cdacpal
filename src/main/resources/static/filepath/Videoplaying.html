@@ -1,0 +1,41 @@
+<html>
+<head>
+   <title>Video Playing</title>
+</head>
+<body>
+<hr/>
+  <audio controls loop>
+  <source src = "02_-_Nijanga_Nenena.mp3"
+          type = "audio/mp3"
+</hr>
+</audio>
+
+    <video id = "s1"
+	      onmouseover = "play1()"
+		  onmouseout = "pause1()"
+		  controls
+		  height = "1000"
+		  width = "1000"
+		  poster = "BeautyPlusMe_20180606221451_fast.jpg"
+	
+	>
+	
+	<script>
+	   function play1()
+	   { 
+	     var s = document.getElementById("s1");
+		 s.play();
+	   }
+	   
+	   function pause1()
+	   {
+	     var d = document,getElementById("s1");
+		 d.pause();
+	   }
+	</script>
+	
+	<source src = "Iddarammayilatho_Movie_Allu_Arjun_Intro_Fight_Scene___Allu_Arjun,_Amala_Paul___S(1).mp4"
+	        type = "Video/mp4"/>
+	</video>		
+</body>
+</html>
